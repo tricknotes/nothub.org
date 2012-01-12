@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Chelsea Market";
+  src: local("Chelsea Market"), url("ChelseaMarket-Regular.ttf") format("truetype"); }
+
+html {
+  overflow-x: hidden;
+  min-width: 550px; }
+
+body {
+  font: 14px/1.6 "Chelsea Market", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #2C2C2C;
+  border-top: 2px solid #ddd; }
+
+#content {
+  max-width: 600px;
+  padding: 20px 60px 30px 60px; }
+
+h1 {
+  position: relative;
+  font-style: normal;
+  font-weight: 100;
+  background: #8A6343;
+  color: white;
+  display: inline-block;
+  padding: 10px 26px;
+  font-size: 2em;
+  opacity: 0;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-transition: opacity 1s, background-color 200ms;
+  -moz-transition: opacity 1s, background-color 200ms; }
+  h1:hover {
+    background: #A07A5C; }
+  h1 a {
+    color: inherit;
+    font-weight: inherit; }
+    h1 a:hover {
+      text-decoration: none; }
+
+h1 {
+  opacity: 1; }
+
+h2 {
+  margin-top: 17px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #eee; }
+
+a {
+  color: #8A6343;
+  font-weight: bold;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+ul {
+  margin-top: 20px;
+  padding: 0px 0px;
+  width: 100%; }
+  ul li {
+    float: left;
+    width: 40%;
+    margin-top: 5px;
+    margin-right: 60px;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+    font-size: 12px; }
+    ul li .watchedName {
+      display: inline-block;
+      min-width: 250px; }
+  ul::after {
+    content: '.';
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both; }
+
+img {
+  margin: 0px 10px;
+  padding: 1px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-box-shadow: 0 3px 10px #dedede, 0 1px 5px #888;
+  -moz-box-shadow: 0 3px 10px #dedede, 0 1px 5px #888;
+  max-width: 100%; }
+
+img.icon {
+  width: 20px;
+  height: 20px; }
+
+a.iconLink, .opelation a {
+  text-decoration: none; }
+
+a img:hover {
+  opacity: 0.4; }
+
+.nameInputField {
+  width: 180px; }
+
+.watchAreaContent {
+  margin: 0px 0px 0px 30px; }
+
+.opelation a {
+  cursor: pointer; }
+
+.configureArea {
+  margin: 0px 0px 0px 10px; }
+
+footer {
+  background: #eee;
+  width: 100%;
+  padding: 20px 0;
+  text-align: right;
+  border-top: 1px solid #ddd; }
+  footer span {
+    display: block;
+    margin-right: 30px;
+    color: #888;
+    font-size: 12px; }
+
+@media all and (max-width: 850px) {
+  ul li {
+    width: 100%; } }
+dl, dt, dd {
+  display: inline-block; }
+
+dl {
+  padding: 30px;
+  width: 550px; }
+
+dt {
+  min-width: 300px; }
+
+dt, dd {
+  margin-left: 0px;
+  margin-top: 10px;
+  border-bottom: 1px dotted #ddd; }
+
+.configForm input {
+  text-align: right;
+  width: 50px; }
+
+.notifyArea {
+  margin: 0px 7px;
+  padding: 0px 5px;
+  display: inline-block;
+  font-size: 12px;
+  font-style: bold;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(88, 154, 194, 0.9);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  color: rgba(88, 154, 194, 0.9); }
