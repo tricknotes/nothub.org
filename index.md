@@ -14,7 +14,7 @@ Feature:
 
 ## Installation
 
-Install from [here](https://chrome.google.com/webstore/detail/xxx)
+Install from [here](https://chrome.google.com/webstore/detail/diioicfkgfbdhpdehliknpmmibenccno)
 
 ## How to use
 
