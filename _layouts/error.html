@@ -2,17 +2,12 @@
 <html>
   <head>
     <link href='css/style.css' rel='stylesheet' />
-    <title>NotHub</title>
+    <title>NotHub - {{ page.title }}</title>
   </head>
   <body>
     <section id='content'>
       {{ content }}
     </section>
-    <footer>
-      <span>
-        &copy; 2012 Ryunosuke SATO. All rights reserved.
-      </span>
-    </footer>
     {% include analytics_tracker.html %}
   </body>
 </html>
