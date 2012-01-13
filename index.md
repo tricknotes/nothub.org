@@ -24,7 +24,7 @@ Install from [here](https://chrome.google.com/webstore/detail/diioicfkgfbdhpdehl
 
 ### 2) Recieve notification
 
-It does when your followings do something.
+It works when your followings do something.
 
 ![Notification](/images/notification.png "Recieve Notification")
 
