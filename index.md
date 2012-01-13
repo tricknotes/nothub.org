@@ -7,7 +7,7 @@ layout: default
 
 NotHub is a Chrome Extension for [GitHub](https://github.com) notification.
 
-Feature:
+Features:
 
 - Your own following list independent from GitHub account
 - Real time notification
@@ -24,23 +24,23 @@ Install from [here](https://chrome.google.com/webstore/detail/diioicfkgfbdhpdehl
 
 ### 2) Recieve notification
 
-It works when your followings do something.
+It will tell you when your followings do something.
 
 ![Notification](/images/notification.png "Recieve Notification")
 
-### 3) Configuration (Optional)
+### 3) Enjoy!
 
-Focus your intriguing event only.
+:D
+
+### Configurations (Optional)
+
+Set up filters:
 
 ![Configuration](/images/config01.png "Config01")
 
-Setup notification parameter.
+Adjust notification:
 
 ![Configuration](/images/config02.png "Config02")
-
-### 4) Enjoy!
-
-:D
 
 ## Author
 
