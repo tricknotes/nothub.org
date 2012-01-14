@@ -50,4 +50,4 @@ Adjust notification:
 
 ## Author
 
-Ryunosuke SATO ([@tricknotes](http://github.com/tricknotes))
+Ryunosuke SATO ([@tricknotes](https://github.com/tricknotes))
