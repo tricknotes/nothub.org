@@ -57,6 +57,10 @@ ul {
     border-bottom: 1px dotted #ccc;
     list-style: none; }
 
+em {
+  color: #589ac3;
+  font-size: 120%; }
+
 blockquote {
   font-size: 120%;
   width: 100%;

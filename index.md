@@ -5,12 +5,18 @@ layout: default
 
 > -Notification Client for GitHub-
 
-NotHub is a Chrome Extension for [GitHub](https://github.com) notification.
+## What is NotHub?
 
-Features:
+*NotHub* is a Chrome Extension for [GitHub](https://github.com) notification.
 
-- Your own following list independent from GitHub account
-- Real time notification
+Have you ever had a problem that you no longer watch GitHub timeline cause of too many following users and watching repositories?  
+If so, how about to try NotHub?
+
+NotHub provides you to notify *only events* that you are *just interested*.  
+Furthermore, you can take notifications in *realtime*.
+
+You can have a list different from GitHub.  
+NotHub helps you to enjoy social coding more comfortably!
 
 ## Installation
 
@@ -44,4 +50,4 @@ Adjust notification:
 
 ## Author
 
-Ryunosuke SATO ([@tricknotes](http://twitter.com/tricknotes))
+Ryunosuke SATO ([@tricknotes](http://github.com/tricknotes))
