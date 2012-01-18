@@ -28,11 +28,11 @@ Install from [here](https://chrome.google.com/webstore/detail/diioicfkgfbdhpdehl
 
 ![Following List](images/following_list.png "Following List")
 
-### 2) Recieve notification
+### 2) Receive notification
 
 It will tell you when your followings do something.
 
-![Notification](images/notification.png "Recieve Notification")
+![Notification](images/notification.png "Receive Notification")
 
 ### 3) Enjoy!
 
