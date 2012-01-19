@@ -7,7 +7,7 @@ html {
   min-width: 550px; }
 
 body {
-  font: 20px "Chelsea Market", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 18px "Chelsea Market", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   color: #2C2C2C;
   border-top: 2px solid #ddd; }
@@ -16,7 +16,7 @@ body {
   margin: auto;
   max-width: 600px;
   min-width: 500px;
-  padding: 40px 60px 30px 60px; }
+  padding: 30px 50px 20px 50px; }
 
 h1 {
   color: white;
@@ -32,8 +32,8 @@ h1 a:hover {
   text-decoration: none; }
 
 h2 {
-  margin-top: 27px;
-  margin-bottom: 7px;
+  margin-top: 25px;
+  margin-bottom: 5px;
   font-weight: 100;
   font-size: 200%;
   letter-spacing: 1px;
@@ -62,10 +62,12 @@ em {
   font-size: 120%; }
 
 blockquote {
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 120%;
   width: 100%;
   text-align: right;
-  padding: 0px 5px 20px 5px; }
+  padding: 0px 5px 10px 5px; }
 blockquote p {
   margin: 0px; }
 
