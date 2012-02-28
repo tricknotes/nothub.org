@@ -46,17 +46,6 @@ a {
   a:hover {
     text-decoration: underline; }
 
-ul {
-  width: 100%;
-  margin-top: 0px;
-  padding: 0px 0px; }
-  ul li {
-    font-size: 80%;
-    width: 85%;
-    margin-top: 5px;
-    border-bottom: 1px dotted #ccc;
-    list-style: none; }
-
 em {
   color: #589ac3;
   font-size: 120%; }
