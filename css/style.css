@@ -71,7 +71,7 @@ blockquote {
 blockquote p {
   margin: 0px; }
 
-img {
+#content img {
   margin: 0px 0px 20px 0px;
   padding: 1px;
   -webkit-border-radius: 5px;
