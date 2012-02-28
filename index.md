@@ -45,6 +45,11 @@ Adjust notification:
 
 ![Configuration](images/config02.png "Config02")
 
+### Source
+
+* [NotHub](http://github.com/tricknotes/nothub) - Chrome Extension
+* [NotHub Stream](http://github.com/tricknotes/nothub-stream) - Server
+
 ## Author
 
 Ryunosuke SATO ([@tricknotes](https://github.com/tricknotes))
