@@ -16,7 +16,7 @@ body {
 #content {
   background-color: white;
   -webkit-box-shadow: 0 7px 15px #dedede, 0 3px 7px #888;
-  -moz-box-shadow: 0 7px 15px #dedede, 0 3px 7px #888;
+  box-shadow: 0 7px 15px #dedede, 0 3px 7px #888;
   margin: auto;
   max-width: 700px;
   min-width: 500px;
@@ -70,9 +70,9 @@ blockquote p {
   margin: 0px 0px 20px 0px;
   padding: 1px;
   -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+  border-radius: 5px;
   -webkit-box-shadow: 0 7px 15px #dedede, 0 3px 7px #888;
-  -moz-box-shadow: 0 7px 15px #dedede, 0 3px 7px #888;
+  box-shadow: 0 7px 15px #dedede, 0 3px 7px #888;
   max-width: 100%; }
 
 .notFound {
