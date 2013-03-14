@@ -19,7 +19,6 @@ body {
   padding: 30px 50px 20px 50px; }
 
 h1 {
-  color: white;
   text-align: left;
   text-shadow: 4px 4px 4px #AAA;
   position: relative;
@@ -40,14 +39,17 @@ h2 {
   border-bottom: 1px solid #ccc; }
 
 a {
-  color: #8A6343;
+  color: #589ac3;
   font-weight: bold;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
 
+h1 a {
+  color: #8A6343; }
+
 em {
-  color: #589ac3;
+  color: #8A6343;
   font-size: 120%; }
 
 blockquote {
