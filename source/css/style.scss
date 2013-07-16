@@ -1,17 +1,20 @@
 @font-face {
   font-family: "Chelsea Market";
-  src: local("Chelsea Market"), url("ChelseaMarket-Regular.ttf") format("truetype"); }
+  src: local("Chelsea Market"), image-url("ChelseaMarket-Regular.ttf") format("truetype");
+}
 
 html {
   overflow-x: hidden;
-  min-width: 550px; }
+  min-width: 550px;
+}
 
 body {
   font: 18px "Chelsea Market", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background-color: #eee;
   color: #2C2C2C;
-  border-top: 2px solid #ddd; }
+  border-top: 2px solid #ddd;
+}
 
 #content {
   background-color: white;
@@ -20,7 +23,8 @@ body {
   margin: auto;
   max-width: 700px;
   min-width: 500px;
-  padding: 30px 100px 20px 100px; }
+  padding: 30px 100px 20px 100px;
+}
 
 h1 {
   text-align: left;
@@ -29,10 +33,12 @@ h1 {
   font-style: normal;
   padding: 0px;
   margin: 0px;
-  font-size: 600%; }
+  font-size: 600%;
+}
 
 h1 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 h2 {
   margin-top: 25px;
@@ -40,21 +46,27 @@ h2 {
   font-weight: 100;
   font-size: 200%;
   letter-spacing: 1px;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #ccc;
+}
 
 a {
   color: #589ac3;
   font-weight: bold;
-  text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
 
 h1 a {
-  color: #8A6343; }
+  color: #8A6343;
+}
 
 em {
   color: #8A6343;
-  font-size: 120%; }
+  font-size: 120%;
+}
 
 blockquote {
   margin-top: 10px;
@@ -62,9 +74,11 @@ blockquote {
   font-size: 120%;
   width: 100%;
   text-align: right;
-  padding: 0px 5px 10px 5px; }
-blockquote p {
-  margin: 0px; }
+  padding: 0px 5px 10px 5px;
+  p {
+    margin: 0px;
+  }
+}
 
 #content img {
   margin: 0px 0px 20px 0px;
@@ -73,21 +87,26 @@ blockquote p {
   border-radius: 5px;
   -webkit-box-shadow: 0 7px 15px #dedede, 0 3px 7px #888;
   box-shadow: 0 7px 15px #dedede, 0 3px 7px #888;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .notFound {
   width: 100%;
   display: inline-block;
-  margin: 150px 0px 0px 50px; }
+  margin: 150px 0px 0px 50px;
+}
 
 footer {
   background: #eee;
   width: 100%;
   padding: 20px 0;
   text-align: right;
-  border-top: 1px solid #ddd; }
-  footer span {
+  border-top: 1px solid #ddd;
+
+  span {
     display: block;
     margin-right: 30px;
     color: #888;
-    font-size: 12px; }
+    font-size: 12px;
+  }
+}

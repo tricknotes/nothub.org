@@ -17,7 +17,7 @@ NotHub helps you to enjoy social coding more comfortably!
 
 ## Installation
 
-Install from <font size="6em">[here](https://chrome.google.com/webstore/detail/diioicfkgfbdhpdehliknpmmibenccno)</font>
+Install from [here](https://chrome.google.com/webstore/detail/diioicfkgfbdhpdehliknpmmibenccno)
 
 ## How to use
 
