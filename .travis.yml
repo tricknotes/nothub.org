@@ -3,12 +3,12 @@ language: ruby
 rvm: 2.0.0
 
 before_script:
-  - '[ "$TRAVIS_BRANCH" == "master" ] && [ "$GH_TOKEN" ] && rake setup'
+  - bundle exec rake setup
 
 script: bundle exec rake build
 
 after_success:
-  - '[ "$TRAVIS_BRANCH" == "master" ] && [ "$GH_TOKEN" ] && rake publish'
+  - '[ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$GH_TOKEN" ] && rake publish'
 
 env:
   global:
