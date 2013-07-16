@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= stylesheet_link_tag 'style.css' %>
+    <title>NotHub - <%= current_page.data.title %></title>
+  </head>
+  <body>
+    <section id='content'>
+      <%= yield %>
+    </section>
+    <%= partial 'analytics_tracker.html' %>
+  </body>
+</html>
