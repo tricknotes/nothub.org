@@ -14,14 +14,14 @@
   </head>
   <body>
     <section id='content'>
-      {{ content }}
+      <%= yield %>
     </section>
     <footer>
       <span>
         &copy; 2012 Ryunosuke SATO. All rights reserved.
       </span>
     </footer>
-    {% include analytics_tracker.html %}
-    {% include github_ribbon.html %}
+    <%= partial 'analytics_tracker.html' %>
+    <%= partial 'github_ribbon.html' %>
   </body>
 </html>

@@ -6,8 +6,8 @@
   </head>
   <body>
     <section id='content'>
-      {{ content }}
+      <%= yield %>
     </section>
-    {% include analytics_tracker.html %}
+    <%= partial 'analytics_tracker.html' %>
   </body>
 </html>
