@@ -1,6 +1,6 @@
 ---
 language: ruby
-rvm: 2.1
+rvm: 2.3.0
 
 before_script:
   - bundle exec rake setup
