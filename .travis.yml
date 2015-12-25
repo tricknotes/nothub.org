@@ -1,6 +1,9 @@
 ---
 language: ruby
 rvm: 2.3.0
+sudo: false
+cache:
+  - bundler
 
 before_script:
   - bundle exec rake setup
