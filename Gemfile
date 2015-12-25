@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'middleman'
+gem 'middleman', '< 4'
 gem 'rake'
