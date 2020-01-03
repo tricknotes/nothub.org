@@ -1,5 +1,5 @@
-MASTER_REPOSITORY = if ENV['GH_TOKEN']
-    "https://#{ENV['GH_TOKEN']}@github.com/tricknotes/nothub.org"
+MASTER_REPOSITORY = if ENV['GITHUB_TOKEN']
+    "https://#{ENV['GITHUB_TOKEN']}@github.com/tricknotes/nothub.org"
   else
     'git@github.com:tricknotes/nothub.org.git'
   end
@@ -38,6 +38,15 @@ def clean
   end
 end
 
+def keep_build_git_repository
+  require 'tmpdir'
+  Dir.mktmpdir do |tmp|
+    FileUtils.mv "#{DEST_DIR}/.git", "#{tmp}/dist_dot_git"
+    yield
+    FileUtils.mv "#{tmp}/dist_dot_git", "#{DEST_DIR}/.git"
+  end
+end
+
 def push_to_gh_pages(repository, branch)
   sha1, _ = `git log -n 1 --oneline`.strip.split(' ')
 
@@ -61,8 +70,7 @@ end
 
 desc 'Build sites'
 task :build do
-  clean
-  build
+  keep_build_git_repository { build }
 end
 
 desc 'Publish website'
