@@ -19,11 +19,12 @@ jobs:
     - name: Setup & Build
       run: |
         bundle exec rake setup build
+      if: github.ref != 'refs/heads/master'
       env:
         GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
     - name: Publish
       run: |
-        bundle exec rake publish
+        bundle exec rake setup build publish
       if: github.ref == 'refs/heads/master'
       env:
         GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
