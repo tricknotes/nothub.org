@@ -1,5 +1,5 @@
-MASTER_REPOSITORY = if ENV['GH_TOKEN']
-    "https://#{ENV['GH_TOKEN']}@github.com/tricknotes/nothub.org"
+MASTER_REPOSITORY = if ENV['GITHUB_TOKEN']
+    "https://#{ENV['GITHUB_TOKEN']}@github.com/tricknotes/nothub.org"
   else
     'git@github.com:tricknotes/nothub.org.git'
   end
