@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# [NotHub](http://nothub.org/)
+# [NotHub](https://nothub.org/)
 
 > -Notification Client for GitHub-
 
@@ -47,8 +47,8 @@ Adjust notification:
 
 ### Source
 
-* [NotHub](http://github.com/tricknotes/nothub) - Chrome Extension
-* [NotHub Stream](http://github.com/tricknotes/nothub-stream) - Server
+* [NotHub](https://github.com/tricknotes/nothub) - Chrome Extension
+* [NotHub Stream](https://github.com/tricknotes/nothub-stream) - Server
 
 ## Author
 
