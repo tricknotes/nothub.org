@@ -9,4 +9,4 @@ RUN bundle install
 COPY . /app
 
 # Start the main process.
-CMD ["middleman", "server", "-b", "0.0.0.0"]
+CMD ["middleman", "server", "--bind-address", "0.0.0.0"]
