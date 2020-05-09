@@ -1,4 +1,7 @@
 activate :directory_indexes
+set :index_file, 'index.html'
+
+activate :sprockets
 
 set :css_dir,    'css'
 set :js_dir,     'js'

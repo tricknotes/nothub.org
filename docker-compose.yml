@@ -2,7 +2,7 @@ version: '3'
 services:
   app:
     build: .
-    command: bash -c "bundle exec middleman server -p 4000 -b '0.0.0.0'"
+    command: bash -c "bundle exec middleman server --port 4000 --bind-address '0.0.0.0'"
     container_name: nothub.org
     volumes:
       - .:/app
