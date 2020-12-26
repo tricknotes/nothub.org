@@ -1,7 +1,9 @@
 activate :directory_indexes
 set :index_file, 'index.html'
 
-activate :sprockets
+activate :sprockets do |c|
+  c.supported_output_extensions.clear # To use sass-helper. What happend...? https://github.com/middleman/middleman-sprockets/issues/127#issuecomment-736958140
+end
 
 set :css_dir,    'css'
 set :js_dir,     'js'
