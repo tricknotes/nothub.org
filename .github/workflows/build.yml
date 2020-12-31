@@ -4,14 +4,13 @@ on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
+
+    container:
+      image: ruby:3.0.0
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Ruby
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 3.0.0
     - name: Install dependencies
       run: |
         gem install bundler
