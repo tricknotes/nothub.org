@@ -1,4 +1,4 @@
-FROM ruby:3.0.2
+FROM ruby:3.1.1
 RUN apt-get update -qq && apt-get install -y nodejs
 RUN mkdir /app
 WORKDIR /app
