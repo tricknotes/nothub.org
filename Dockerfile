@@ -1,5 +1,9 @@
 FROM ruby:3.2.1
-RUN apt-get update -qq && apt-get install -y nodejs
+
+RUN curl --location --fail --silent --show-error https://deb.nodesource.com/setup_18.x | bash -
+RUN apt-get update -qq \
+  && apt-get install -y nodejs
+
 RUN mkdir /app
 WORKDIR /app
 
