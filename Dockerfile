@@ -1,4 +1,4 @@
-FROM ruby:3.2.2
+FROM ruby:3.3.0
 
 RUN curl --location --fail --silent --show-error https://deb.nodesource.com/setup_18.x | bash -
 RUN apt-get update -qq \
