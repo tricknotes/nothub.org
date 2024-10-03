@@ -16,9 +16,9 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     container:
-      image: ruby:3.3.0
+      image: ruby:3.3.5
     steps:
       - uses: actions/checkout@v3
       - uses: actions/configure-pages@v3
@@ -41,7 +41,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
