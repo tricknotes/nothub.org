@@ -1,4 +1,4 @@
-FROM ruby:3.3.5
+FROM ruby:3.3.6
 
 RUN curl --location --fail --silent --show-error https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get update -qq \
