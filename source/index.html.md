@@ -9,4 +9,4 @@ layout: default
 
 NotHub has been discontinued.
 
-Thank you for using NotHub.
+Thank you for using NotHub 👋 
