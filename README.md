@@ -1,10 +1,5 @@
 # nothub.org
 
-Web site for [NotHub](https://nothub.org).
+NotHub has been archived.
 
-Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/diioicfkgfbdhpdehliknpmmibenccno)
-
-## Source
-
-* [NotHub](https://github.com/tricknotes/nothub) - Chrome Extension
-* [NotHub Stream](https://github.com/tricknotes/nothub-stream) - Server
+Thank you for using NotHub 👋 

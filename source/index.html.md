@@ -7,6 +7,6 @@ layout: default
 
 ## End of Service
 
-NotHub has been discontinued.
+NotHub has been archived.
 
 Thank you for using NotHub 👋 
